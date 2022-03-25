@@ -6,7 +6,7 @@ import PrintItem from './PrintItem';
 
 import { GlobalContext } from '../../contexts/GlobalContext';
 
-export default function Print() {
+export default function PrintContainer() {
   const { products, info } = useContext(GlobalContext);
 
   return (
