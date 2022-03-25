@@ -9,6 +9,6 @@ const defaultStyles = {
     },
     danger: '#ff4757',
   },
-}
+};
 
 export default defaultStyles;

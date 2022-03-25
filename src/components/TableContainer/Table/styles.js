@@ -19,7 +19,7 @@ export const Container = styled.div`
 
   td {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
-    color: ${({ theme  }) => theme.colors.primary.main};
+    color: ${({ theme }) => theme.colors.primary.main};
   }
 
   th, td {
@@ -30,12 +30,6 @@ export const Container = styled.div`
   footer {
     margin-top: 1.5rem; /* 24px; */
     text-align: center;
-  }
-
-  @media screen and (max-width: 610px) {
-    /* table {
-      font-size: 0.75rem;
-    } */
   }
 
   @media screen and (max-width: 625px) {

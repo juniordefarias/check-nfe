@@ -1,5 +1,5 @@
 {
-  "name": "fe",
+  "name": "check-nfe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

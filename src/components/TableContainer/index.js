@@ -26,23 +26,6 @@ export default function TableContainer() {
     button.classList.add('selected');
   }
 
-  /* function handlePrint() {
-    const printable = document.querySelector('#printable');
-    const win = window.open('', '', 'height=700, width=700');
-    win.document.write(`
-      <html>
-        <head>
-          <title>Conferência</title>
-        </head>
-        <body>
-          ${printable}
-        </body>
-      </html>
-    `);
-    win.document.close();
-    win.print();
-  } */
-
   return (
     <Container>
       <ul>

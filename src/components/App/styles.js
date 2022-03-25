@@ -115,4 +115,3 @@ export const Footer = styled.footer`
   color: ${({ theme }) => theme.colors.primary.light};
   margin: 2rem 0 1rem;
 `;
-
