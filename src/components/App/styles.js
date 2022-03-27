@@ -35,6 +35,8 @@ export const Header = styled.header`
     justify-content: end;
     gap: 0.5rem;
 
+    padding: 0.5rem;
+
     overflow-x: auto;
 
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
@@ -72,7 +74,7 @@ export const Header = styled.header`
     }
 
     .inputContainer {
-      padding: 0 1rem 0 0;
+      padding: 0.5rem;
     }
 
     span {

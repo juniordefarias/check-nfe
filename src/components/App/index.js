@@ -149,7 +149,7 @@ function App() {
           <img src={logo} alt="logo" />
           <div className="inputContainer">
             <input type="file" id="inputFile" accept=".xml" onChange={handleXML} />
-            <span id="labelInputFile"/* data-label="Arquivo lido com sucesso!"  */>Selecione o XML da sua NF-e!</span>
+            <span id="labelInputFile"/* data-label="Arquivo lido com sucesso!" */>Selecione o XML da sua NF-e!</span>
             <Button as="label" htmlFor="inputFile">Nova NF-e</Button>
           </div>
         </Header>
