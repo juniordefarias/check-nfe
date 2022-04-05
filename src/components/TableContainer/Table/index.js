@@ -27,7 +27,7 @@ export default function Table({ selectedTable }) {
               cProd, xProd, vProd, ICMSST, IPI, vDesc,
             }) => (
               <tr key={Math.random()}>
-                <td data-label="Referência">{Number.isNaN(cProd) ? cProd : Number(cProd)}</td>
+                <td data-label="Referência">{cProd}</td>
                 <td data-label="Descrição">{xProd}</td>
                 <td data-label="Compra">{vProd}</td>
                 <td data-label="ST">{ICMSST}</td>
@@ -64,7 +64,7 @@ export default function Table({ selectedTable }) {
               cProd, xProd, NCM, CFOP, ICMS, ICMSST, IPI, PIS, COFINS,
             }) => (
               <tr key={Math.random()}>
-                <td data-label="Referência">{Number.isNaN(cProd) ? cProd : Number(cProd)}</td>
+                <td data-label="Referência">{cProd}</td>
                 <td data-label="Descrição">{xProd}</td>
                 <td data-label="NCM">{NCM}</td>
                 <td data-label="CFOP">{CFOP}</td>
@@ -98,7 +98,7 @@ export default function Table({ selectedTable }) {
             id, cProd, xProd, cEANTrib, uTrib, qTrib, vUnTrib,
           }) => (
             <tr key={id}>
-              <td data-label="Referência">{Number.isNaN(cProd) ? cProd : Number(cProd)}</td>
+              <td data-label="Referência">{cProd}</td>
               <td data-label="Descrição">{xProd}</td>
               <td data-label="GTIN">{cEANTrib}</td>
               <td data-label="Quantidade">{`${Number(qTrib)} ${uTrib}`}</td>
